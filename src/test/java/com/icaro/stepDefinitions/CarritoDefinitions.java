@@ -8,6 +8,7 @@ import io.cucumber.java.es.Y;
 public class CarritoDefinitions {
     ShopCartPage shopCartPage;
     public CarritoDefinitions() {
+
         this.shopCartPage = new ShopCartPage(Hooks.getDriver());
     }
 
